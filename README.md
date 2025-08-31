@@ -68,12 +68,12 @@ Tests use xUnit + Microsoft.AspNetCore.Mvc.Testing + FluentAssertions for full i
 
 
 ***Summary
-• Single endpoint: GET /api/available-homes
-• Fully in-memory (no DB).
-• Async filtering with Task.Run.
-• Optimized with HashSet for large datasets.
-• Clean layered architecture (Controller → Service → Model).
-• Fully integration tested.
+- Single endpoint: GET /api/available-homes
+- Fully in-memory (no DB).
+- Async filtering with Task.Run.
+- Optimized with HashSet for large datasets.
+- Clean layered architecture (Controller → Service → Model).
+- Fully integration tested.
 
 
 
