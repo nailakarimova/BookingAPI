@@ -24,7 +24,7 @@ namespace BookingAPI.Tests
         {
             var startDate = "2025-07-20";
             var endDate = "2025-07-15"; // invalid if(end < start)
-            var url = $"/api/AvailableHomes?startDate={startDate}&endDate={endDate}";
+            var url = $"/api/available-homes?startDate={startDate}&endDate={endDate}";
 
             var response = await _client.GetAsync(url);
 
@@ -36,7 +36,7 @@ namespace BookingAPI.Tests
         {
             var startDate = "2025-07-15";
             var endDate = "2025-07-16";
-            var url = $"/api/AvailableHomes?startDate={startDate}&endDate={endDate}";
+            var url = $"/api/available-homes?startDate={startDate}&endDate={endDate}";
 
             var response = await _client.GetAsync(url);
 
@@ -55,7 +55,7 @@ namespace BookingAPI.Tests
         {
             var startDate = "2025-07-20";
             var endDate = "2025-07-21";
-            var url = $"/api/AvailableHomes?startDate={startDate}&endDate={endDate}";
+            var url = $"/api/available-homes?startDate={startDate}&endDate={endDate}";
 
             var response = await _client.GetAsync(url);
 
