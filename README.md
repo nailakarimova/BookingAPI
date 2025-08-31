@@ -25,7 +25,7 @@ http://localhost:{PORT}/swagger/index.html
 ## How to Test the Application
 
 Navigate to the test project:
-cd BookingAPI.Tests
+cd BookingApi.Tests
 
 Run tests:
 dotnet test
