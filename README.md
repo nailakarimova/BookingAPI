@@ -1,3 +1,5 @@
+About The Project
+
 ***Booking API 
 Booking API is a lightweight ASP.NET Core Web API that returns a list of homes available for a given date range.
 All data is stored in memory, no database required.
@@ -13,11 +15,11 @@ Run the API:
 dotnet run --project BookingAPI
 
 Open Swagger UI in your browser:
-https://localhost:5001/swagger
+https://localhost:{PORT}/swagger/index.html
 
 or
 
-http://localhost:5000/swagger
+http://localhost:{PORT}/swagger/index.html
 
 
 ***How to Test the Application
@@ -66,12 +68,12 @@ Tests use xUnit + Microsoft.AspNetCore.Mvc.Testing + FluentAssertions for full i
 
 
 ***Summary
-• Single endpoint: GET /api/available-homes
-• Fully in-memory (no DB).
-• Async filtering with Task.Run.
-• Optimized with HashSet for large datasets.
-• Clean layered architecture (Controller → Service → Model).
-• Fully integration tested.
+- Single endpoint: GET /api/available-homes
+- Fully in-memory (no DB).
+- Async filtering with Task.Run.
+- Optimized with HashSet for large datasets.
+- Clean layered architecture (Controller → Service → Model).
+- Fully integration tested.
 
 
 
