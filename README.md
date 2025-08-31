@@ -8,7 +8,7 @@ All data is stored in memory, no database required.
 ## How to Run the Application
 
 Clone the repository:
-git clone https://github.com/yourusername/BookingAPI.git
+git clone https://github.com/nailakarimova/BookingAPI.git
 cd BookingAPI
 
 Run the API:
