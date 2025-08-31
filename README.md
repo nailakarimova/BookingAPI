@@ -15,11 +15,11 @@ Run the API:
 dotnet run --project BookingAPI
 
 Open Swagger UI in your browser:
-https://localhost:5001/swagger
+https://localhost:{PORT}/swagger/index.html
 
 or
 
-http://localhost:5000/swagger
+http://localhost:{PORT}/swagger/index.html
 
 
 ***How to Test the Application
