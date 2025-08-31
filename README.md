@@ -1,3 +1,5 @@
+About The Project
+
 ***Booking API 
 Booking API is a lightweight ASP.NET Core Web API that returns a list of homes available for a given date range.
 All data is stored in memory, no database required.
