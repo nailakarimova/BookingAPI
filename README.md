@@ -1,11 +1,11 @@
 About The Project
 
-***Booking API 
+## Booking API 
 Booking API is a lightweight ASP.NET Core Web API that returns a list of homes available for a given date range.
 All data is stored in memory, no database required.
 
 
-***How to Run the Application
+## How to Run the Application
 
 Clone the repository:
 git clone https://github.com/yourusername/BookingAPI.git
@@ -22,7 +22,7 @@ or
 http://localhost:{PORT}/swagger/index.html
 
 
-***How to Test the Application
+## How to Test the Application
 
 Navigate to the test project:
 cd BookingAPI.Tests
@@ -38,7 +38,7 @@ What is tested:
 Tests use xUnit + Microsoft.AspNetCore.Mvc.Testing + FluentAssertions for full integration testing.
 
 
-***Architecture
+## Architecture
 
 1. Controllers
    Handle HTTP requests, no business logic.
@@ -59,7 +59,7 @@ Tests use xUnit + Microsoft.AspNetCore.Mvc.Testing + FluentAssertions for full i
    4.2. HashSet chosen for O(1) slot lookups (faster than List for large datasets).
 
 
-***Filtering Logic
+## Filtering Logic
 1. User supplies a startDate and endDate.
 2. Service generates the full date range (startDate..endDate).
 3. A home is included only if all dates in the range exist in its slots.
@@ -67,7 +67,7 @@ Tests use xUnit + Microsoft.AspNetCore.Mvc.Testing + FluentAssertions for full i
 5. Filtering runs inside Task.Run → keeps the API responsive by not blocking request threads.
 
 
-***Summary
+## Summary
 - Single endpoint: GET /api/available-homes
 - Fully in-memory (no DB).
 - Async filtering with Task.Run.
