@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookingApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/available-homes")]
     public class AvailableHomesController : ControllerBase
     {
         private readonly IHomeService _homeService;
